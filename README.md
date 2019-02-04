@@ -24,9 +24,7 @@ $ rails db:seed
 
 $ rails server
 
- et enfin, go sur localhost:3000/
- 
-hf
+localhost:3000/ 
 ~~~~~~~~~~~~~~~~~~~~
 
 #### Made with ♥ by:
