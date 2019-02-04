@@ -12,6 +12,8 @@ On retrouve les différents __potins__ sur la *page d'accueil*. (pour l'instant 
 
 __/team__ et __/contact__ dans le *header*.
 
+Tout les liens sont cliquable depuis la *home page*.
+
 Pour faire fonctionner tout ça rien de bien compliqué : 
 ~~~~~~~~~~~~~~~~~~~~
 $ bundle install
@@ -24,8 +26,7 @@ $ rails db:seed
 
 $ rails server
 
-bla bla [Clic ici](http://localhost:3000/) blabla
-
+localhost:3000/ 
 ~~~~~~~~~~~~~~~~~~~~
 
 #### Made with ♥ by:
@@ -35,3 +36,6 @@ bla bla [Clic ici](http://localhost:3000/) blabla
 ##### Martin François -> @tinmar
 
 ##### Xavier Refour -> @Xavier.Refour
+
+![](https://media.giphy.com/media/jbbXfBJDKl5W8lexTu/giphy.gif)
+
