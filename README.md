@@ -16,13 +16,15 @@ Pour faire fonctionner tout ça rien de bien compliqué :
 ~~~~~~~~~~~~~~~~~~~~
 $ bundle install
 
+$ rails db:create
+
 $ rails db:migrate
 
 $ rails db:seed
 
-$ rails c
+$ rails server
 
-
+[Amuses toi ici](http://localhost:3000/) 
 
 ~~~~~~~~~~~~~~~~~~~~
 
