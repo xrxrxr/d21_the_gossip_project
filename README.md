@@ -1,6 +1,6 @@
 Hello la correction, bienvenue dans ce petit repo, el famoso :
 
-**GOSSIP PROJECT EN RAAILS** ;
+**GOSSIP PROJECT EN RAILS** ;
 
 Le principe de l'exercice est *simple* : 
 
