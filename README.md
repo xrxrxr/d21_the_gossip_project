@@ -1,14 +1,14 @@
-Hello la correction, bienvenue dans ce petit repo, el famoso **GOSSIP PROJECT EN *RAAILS* **;
+Hello la correction, bienvenue dans ce petit repo, el famoso **GOSSIP PROJECT EN *RAAILS* ** ;
 
 Le principe de l'exercice est *simple* : 
 
-#On potine. *Basique*.
+# On potine. *Basique*.
 
 On commence tout ça avec les premières pages de l'appli.
 
 On retrouve les différents _potins_ sur la *page d'accueil*. (pour l'instant fake, lol)
 
-_/team_ et _/contact_ dans le *header*.
+__/team__ et __/contact__ dans le *header*.
 
 Pour faire fonctionner tout ça rien de bien compliqué : 
 ~~~~~~~~~~~~~~~~~~~~
@@ -23,15 +23,11 @@ $ rails c
 
 
 ~~~~~~~~~~~~~~~~~~~~
-------
 
-par Quentin Vandecandelaere -> @Quentin Vandecandelaere
-------
+## Made with <3 by:
 
-&
-par Martin François -> @tinmar
-------
+### Quentin Vandecandelaere -> @Quentin Vandecandelaere
 
-&
-Xavier Refour -> @Xavier.Refour
-------
+### Martin François -> @tinmar
+
+### Xavier Refour -> @Xavier.Refour
