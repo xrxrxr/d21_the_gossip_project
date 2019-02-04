@@ -12,6 +12,8 @@ On retrouve les différents __potins__ sur la *page d'accueil*. (pour l'instant 
 
 __/team__ et __/contact__ dans le *header*.
 
+Tout les liens sont cliquable depuis la *home page*.
+
 Pour faire fonctionner tout ça rien de bien compliqué : 
 ~~~~~~~~~~~~~~~~~~~~
 $ bundle install
