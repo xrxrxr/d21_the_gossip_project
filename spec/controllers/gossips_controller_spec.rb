@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+=begin
 RSpec.describe GossipsController, type: :controller do
 
   describe "GET #each_gossip" do
@@ -10,3 +10,4 @@ RSpec.describe GossipsController, type: :controller do
   end
 
 end
+=end

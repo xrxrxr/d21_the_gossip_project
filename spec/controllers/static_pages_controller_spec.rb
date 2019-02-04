@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+=begin
 RSpec.describe StaticPagesController, type: :controller do
 
   describe "GET #team" do
@@ -10,3 +10,4 @@ RSpec.describe StaticPagesController, type: :controller do
   end
 
 end
+=end

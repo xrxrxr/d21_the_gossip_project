@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+=begin
 RSpec.describe UsersController, type: :controller do
 
   describe "GET #welcome" do
@@ -10,3 +10,4 @@ RSpec.describe UsersController, type: :controller do
   end
 
 end
+=end
