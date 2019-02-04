@@ -28,10 +28,10 @@ $ rails server
 
 ~~~~~~~~~~~~~~~~~~~~
 
-## Made with ♥ by:
+#### Made with ♥ by:
 
-### Quentin Vandecandelaere -> @Quentin Vandecandelaere
+##### Quentin Vandecandelaere -> @Quentin Vandecandelaere
 
-### Martin François -> @tinmar
+##### Martin François -> @tinmar
 
-### Xavier Refour -> @Xavier.Refour
+##### Xavier Refour -> @Xavier.Refour
