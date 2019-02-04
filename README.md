@@ -1,24 +1,37 @@
-# README
+Hello la correction, bienvenue dans ce petit repo, el famoso **GOSSIP PROJECT EN *RAAILS* **;
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Le principe de l'exercice est *simple* : 
 
-Things you may want to cover:
+#1On potine. *Basique*.
 
-* Ruby version
+On commence tout ça avec les premières pages de l'appli.
 
-* System dependencies
+On retrouve les différents _potins_ sur la *page d'accueil*. (pour l'instant fake, lol)
 
-* Configuration
+_/team_ et _/contact_ dans le *header*.
 
-* Database creation
+Pour faire fonctionner tout ça rien de bien compliqué : 
+~~~~~~~~~~~~~~~~~~~~
+$ bundle install
 
-* Database initialization
+$ rails db:migrate
 
-* How to run the test suite
+$ rails db:seed
 
-* Services (job queues, cache servers, search engines, etc.)
+$ rails c
 
-* Deployment instructions
 
-* ...
+
+~~~~~~~~~~~~~~~~~~~~
+------
+
+par Quentin Vandecandelaere -> @Quentin Vandecandelaere
+------
+
+&
+par Martin François -> @tinmar
+------
+
+&
+Xavier Refour -> @Xavier.Refour
+------
