@@ -1,0 +1,27 @@
+<h1>Bienvenue sur notre superbe site</h1>
+<p>Des potins, des frais, des vrais</p>
+
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Mon super site de gossip, du dossier views !</h1>
+    <p>Bienvenue chez 'User', le site est en construction, peu de commérages pour le moment. Et si tu nous <a href="/gossips/new/">aidais à en créer un</a> ?</p>
+		<% @gossips.each_with_index do |gossip, i| %>
+        <p>
+        	<%= User.find_by(id: gossip.user_id).first_name %><br>
+          <%= gossip.title %>
+        </p>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+          <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <%= link_to "Voir l'auteur", profile_path(User.find_by(id: gossip.user_id).id), :class => "btn btn-primary" %>
+          </div>
+        </div>
+      <% end %>
+
+  </body>
+</html>
