@@ -6,4 +6,5 @@ class User < ApplicationRecord
 	has_many :received_messages, foreign_key: 'recipient_id', class_name: "PrivateMessage", through: :join_table_user_private_messages
 	has_many :comments
 	has_many :likes
+	validates :first_name, presence: true
 end

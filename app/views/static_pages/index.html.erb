@@ -1,7 +1,7 @@
 <h1>Mon super site de gossip, du dossier views !</h1>
 <p>Bienvenue chez 'User', le site est en construction, peu de commérages pour le moment. Et si tu nous <a href="/gossips/new/">aidais à en créer un</a> ?</p>
 
-<!-- pour faire fonctionner le card-deck 3*3 on utilise un double indicator "_b" et "_n" pour filter les "i" des index qui nous intéressent -->
+<!-- pour faire fonctionner le card-deck 3*3 on utilise un double indicator "indicator_b" et "indicator_n" pour filter les "i" des index des "gossip" qui nous intéressent -->
 <% 20.times do %>
   <% @indicator_n += 1 %>
   <%if @indicator_n % 3 == 0%>
@@ -12,8 +12,8 @@
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><%= gossip.title %></h5>
-          <p class="card-text">Pour en savoir plus, l'auteur de ce prose est : <%= User.find_by(id: gossip.user_id).first_name %></p>
-          <%= link_to "Voir l'auteur", gossip_path(gossip.id), :class => "btn btn-primary" %>
+          <p class="card-text">Pour en savoir plus, l'auteur de ce prose est : <%= gossip.user.first_name %></p>
+          <%= link_to "Voir le gossip", gossip_path(gossip.id), :class => "btn btn-primary" %>
         </div>
       </div>
     <% end %>
@@ -30,8 +30,8 @@
         <img class="card-img-top" src=".../100px180/" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title"><%= gossip.title %></h5>
-          <p class="card-text">Pour en savoir plus, l'auteur de ce prose est : <%= User.find_by(id: gossip.user_id).first_name %></p>
-          <%= link_to "Voir l'auteur", gossip_path(gossip.id), :class => "btn btn-primary" %>
+          <p class="card-text">Pour en savoir plus, l'auteur de ce prose est : <%= gossip.user.first_name %></p>
+          <%= link_to "Voir le gossip", gossip_path(gossip.id), :class => "btn btn-primary" %>
         </div>
       </div>
     <% end %>
