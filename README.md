@@ -2,7 +2,7 @@ Hello la correction, bienvenue dans ce petit repo, el famoso **GOSSIP PROJECT EN
 
 Le principe de l'exercice est *simple* : 
 
-#1On potine. *Basique*.
+#On potine. *Basique*.
 
 On commence tout ça avec les premières pages de l'appli.
 
