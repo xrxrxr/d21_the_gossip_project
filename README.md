@@ -26,7 +26,7 @@ $ rails c
 
 ~~~~~~~~~~~~~~~~~~~~
 
-## Made with <3 by:
+## Made with ♥ by:
 
 ### Quentin Vandecandelaere -> @Quentin Vandecandelaere
 
