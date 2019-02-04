@@ -36,3 +36,5 @@ localhost:3000/
 ##### Martin François -> @tinmar
 
 ##### Xavier Refour -> @Xavier.Refour
+
+![](https://tenor.com/view/bisous-amour-gif-13153292)
