@@ -1,8 +1,10 @@
-Hello la correction, bienvenue dans ce petit repo, el famoso **GOSSIP PROJECT EN RAAILS** ;
+Hello la correction, bienvenue dans ce petit repo, el famoso :
+
+**GOSSIP PROJECT EN RAAILS** ;
 
 Le principe de l'exercice est *simple* : 
 
-# On potine. *Basique*.
+### On potine. *Basique*.
 
 On commence tout ça avec les premières pages de l'appli.
 
