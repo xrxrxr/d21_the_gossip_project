@@ -6,7 +6,7 @@ Le principe de l'exercice est *simple* :
 
 On commence tout ça avec les premières pages de l'appli.
 
-On retrouve les différents _potins_ sur la *page d'accueil*. (pour l'instant fake, lol)
+On retrouve les différents __potins__ sur la *page d'accueil*. (pour l'instant fake, lol)
 
 __/team__ et __/contact__ dans le *header*.
 
