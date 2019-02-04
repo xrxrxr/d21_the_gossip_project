@@ -24,7 +24,7 @@ $ rails db:seed
 
 $ rails server
 
-[Amuses toi ici](http://localhost:3000/) 
+bla bla [Clic ici](http://localhost:3000/) blabla
 
 ~~~~~~~~~~~~~~~~~~~~
 
