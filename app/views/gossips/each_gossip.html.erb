@@ -1,7 +1,5 @@
-<h1>Gossips#each_gossip</h1>
-<p>Find me in app/views/gossips/each_gossip.html.erb</p>
-<p><%= @author.first_name %></p>
-<%= link_to "clique ici", profile_path(@author.id) %>
-<p><%= @gossip.title %></p>
-<p><%= @gossip.content %></p>
-<p><%= @gossip.created_at %></p>
+<h1>Gossip n°<%= @gossip.id %></h1>
+<p>Auteur.e : <%= @author.first_name %> | <%= link_to "clique ici", profile_path(@author.id) %> pour voir sa page</p>
+<p>Titre : <%= @gossip.title %></p>
+<p>Contenu : <%= @gossip.content %></p>
+<p>Date : <%= @gossip.created_at %></p>

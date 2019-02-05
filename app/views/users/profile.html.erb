@@ -1,2 +1,5 @@
-<h1>Welcome <%= @user.first_name %></h1>
-<p>Find me in app/views/users/welcome.html.erb</p>
+<h1>Page de : <%= @user.first_name %></h1>
+<p>Identifiant Auteur.e : <%= @user.id %></p>
+<p>Prénom : <%= @user.first_name %></p>
+<p>Nom : <%= @user.last_name %></p>
+<p>Ville : <%= @user.city.name %></p>
